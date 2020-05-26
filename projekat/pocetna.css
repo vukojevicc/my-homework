@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("background-business-computer-connection-303383.jpg");
+    height: 100vh;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-width: 950px;
+}
+#container{
+    width: 80%;
+    margin: auto;
+}
+header img{
+    width: 5%;
+    height: 5%;
+    padding-top: 0.4%;
+}
+header img:hover{
+    opacity: 0.5;
+}
+header{
+    background-color: #ffffff;
+    box-shadow: 0 0 25px #fff;
+}
+#header{
+    width: 80%;
+    margin: auto;
+}
+header nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(75, 73, 73);
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+header nav a:hover{
+    color:rgb(173, 172, 172);
+    transition: 0.3s;
+}
+header nav{
+    float: right;
+    padding-top: 2%;
+}
+blockquote{
+    margin-top: 26%;
+    margin-bottom: 32%;
+    background-image: url("background-business-computer-connection-303383.jpg");
+    border-radius: 10px;
+    box-shadow: 0 0 20px white;
+}
+blockquote p{
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(196, 192, 192);
+    padding: 0.5rem;
+}
+blockquote p span{
+    font-style: italic;
+}
+footer{
+    background-color: white;
+    box-shadow: 0 0 25px #fff;
+    margin-top: 315px;
+}
+#footer{
+    width: 80%;
+    padding: 23px 0;
+    margin: auto;
+    color: gray;
+}
+#footer div{
+    float: right;
+}
+#footer p{
+    text-transform: capitalize;
+    display: inline-block;
+}
+

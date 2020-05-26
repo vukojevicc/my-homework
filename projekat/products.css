@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 1200px;
+}
+header img{
+    width: 5%;
+    height: 5%;
+    padding-top: 0.4%;
+}
+header img:hover{
+    opacity: 0.5;
+}
+header{
+    background-color: #ffffff;
+    box-shadow: 0 0 25px #fff;
+}
+#header{
+    width: 80%;
+    margin: auto;
+}
+header nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(75, 73, 73);
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+header nav a:hover{
+    color:rgb(173, 172, 172);
+    transition: 0.3s;
+}
+header nav{
+    float: right;
+    padding-top: 2%;
+}
+#iphonese{
+    height: 350px;
+    background-color: black;
+}
+#iphonese img{
+    height: 100%;
+    float: left;
+    width: 50%;
+}
+.text{
+    padding: 69px 0;
+}
+.add-text-heading{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.add-p{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.add-p-2{
+    color: rgb(150, 148, 148);
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.ankori{
+    text-decoration: none;
+    color: rgb(55, 55, 255) !important;
+    display: inline-block;
+    margin: 0 10px;
+}
+.ankori:hover{
+    text-decoration: underline;
+}
+#iphone11{
+    height: 350px;
+    background-color: rgb(236, 236, 236);
+}
+#iphone11 img{
+    height: 100%;
+    float: right;
+    width: 50%;
+}
+#iphone11 h1{
+    color: rgb(94, 93, 93)
+}
+#iphone11 .add-p,.add-p-2{
+    color: rgb(110, 110, 110)
+}
+#iphone11pro{
+    height: 350px;
+    background-color: black;
+}
+#iphone11pro img{
+    height: 100%;
+    float: left;
+    width: 50%;
+}
+footer{
+    background-color: white;
+}
+#footer{
+    width: 80%;
+    padding: 23px 0;
+    margin: auto;
+    color: gray;
+}
+#footer div{
+    float: right;
+}
+#footer p{
+    text-transform: capitalize;
+    display: inline-block;
+}
