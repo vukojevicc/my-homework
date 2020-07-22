@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgb(199, 237, 250), rgb(49, 170, 211));
+    height: 100vh;
+}
+.kocka{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 11%;
+    margin: 10px 10px;
+}
+.tacka{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+.provid{
+    opacity: 0;
+}
+.kocka1{
+    display: grid;
+    place-items: center;
+}
+.kocka2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.kocka3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+.kocka5{
+    padding: 13px !important;
+}
+.kocka6{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+.container{
+    padding-top: 130px;
+}
+#dugme{
+    padding: 20px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
