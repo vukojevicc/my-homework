@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgb(73, 73, 250), rgb(255, 255, 0));
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+form{
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+input, textarea{
+    margin: 10px 0;
+    height: 40px;
+    width: 300px;
+}
+input, textarea:focus{
+    outline: none;
+}
+label{
+    font-size: 45px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    margin: 20px 0;
+}
+a:hover{
+    color: rgb(0, 0, 255);
+}
+button{
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(255,255,255,0);
+    border: 2px solid black;
+    border-radius: 30px;
+    color: black;
+}
+button:hover{
+    color: rgb(151, 151, 255);
+    border-color: rgb(151, 151, 255);
+}
+input[type="file"]{
+   width: 175px;
+}
+.sakrij{
+    display: none;
+    color: red;
+    font-size: 25px;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+.upozorenje{
+    color: red;
+    font-size: 25px;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+#razlicita_lozinka{
+    display: none;
+    color: red;
+    font-size: 25px;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+#odjavise{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+textarea{
+    height: 100px !important;
+}
+.radio input{
+    width: 50px;
+}
+select{
+    height: 50px;
+    font-size: 25px;
+    margin: 20px 0;
+}
+.radio{
+    padding-bottom: 10px;
+}
+.flex_item{
+    font-size: larger;
+    font-weight: 800;
+}
+.komentar{
+    width: 500px;
+    margin: 20px auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 210px auto;
+    outline: 1px solid black;
+    outline-offset: 3px;
+    padding: 5px 0;
+}
+#komentar_dugme{
+    font-size: 10px;
+    padding: 10px;
+    background-color: rgb(255,255,255,0);
+    border: 1px solid black;
+    border-radius: 0px;
+    color: black;
+    margin: 0;
+}
+#komentar_dugme:hover{
+    color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 0px;
+}
+.item2{
+    grid-column: 1/3;
+    margin: 15px 0;
+}
+.item5{
+    font-weight: normal;
+    grid-column: 1/3;
+    text-align: center;
+    margin: 15px 0;
+    border-top: 1px solid black;
+    width: 100%;
+    padding-top: 10px;
+}
+img{
+    outline: 1px solid black;
+    outline-offset: 1px;
+}
+.bez_padinga{
+    padding-top: 0;
+}
+#seen{
+    width: 30px; 
+    height: 30px; 
+    outline: none;
+    position: relative;
+    right: -370px;
+    bottom: 4px;
+    margin-top: 0px;
+}
+#flex{
+    display: flex;
+    flex-direction: column;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+table{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 1278px;
+}
+th{
+    padding: 20px;
+}
+td{
+    text-align: center;
+    vertical-align: center;
+    padding: 0 10px;
+}
+td:nth-of-type(n+5){
+    padding: 0;
+}
