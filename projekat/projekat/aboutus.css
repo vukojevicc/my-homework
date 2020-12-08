@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    min-width: 1200px;
+}
+aside img{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+aside{
+    float: left;
+    width: 15%;
+    padding-top: 10px;
+    background-color: white !important;
+    height: 1349px;
+    border-right: 1px solid rgb(82, 81, 81);
+}
+aside img:hover{
+    opacity: 0.5;
+}
+#productlinks{
+    padding-left: 15px;
+}
+#productlinks a{
+    text-transform: none;
+}
+aside a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(75, 73, 73);
+    font-family: sans-serif;
+}
+aside ul{
+    list-style-type: none;
+}
+aside li{
+    margin: 43px 0;
+}
+aside nav a:hover{
+    color:rgb(173, 172, 172);
+    transition: 0.3s;
+}
+aside nav{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+main{
+    width: 85%;
+    float: left;
+    color: rgb(73, 72, 72);
+    padding: 20px;
+    font-family: sans-serif;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    letter-spacing: -0.9px;
+    color: rgb(197, 168, 3);
+    font-family: initial;
+}
+.p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.outline{
+    outline:1px solid rgb(109, 108, 108);
+    outline-offset: 3px;
+}
+figure img{
+    width: 50%;
+    height: 260px;
+    display: block;
+    margin: 20px auto;
+}
+figcaption{
+    text-align: center;
+}
+main h2{
+    font-size: 2rem !important;
+    text-align: initial !important;
+}
+.history{
+    font-size: 1.2rem;
+    padding: 10px 0;
+    text-align: left;
+}
+article{
+    width: 70%;
+    display: inline-block;
+    padding-right: 25px;
+}
+#aside{
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+}
+#aside img{
+    width: 100%;
+}
+#aside p{
+    text-align: center;
+    margin: 15px;
+}
+#clear{
+    clear: both;
+}
+footer{
+    background-color: rgb(53, 52, 52);
+}
+#footer{
+    width: 80%;
+    padding: 23px 0;
+    margin: auto;
+    color: white;
+}
+#footer div{
+    float: right;
+}
+#footer p{
+    text-transform: capitalize;
+    display: inline-block;
+}
+
